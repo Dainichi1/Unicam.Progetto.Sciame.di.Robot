@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Button?>
+
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.HBox?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity"
+
+      prefWidth="950.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="it.unicam.cs.MarcoTorquati.RobotSimulation">
+   <cursor>
+      <Cursor fx:constant="DEFAULT"/>
+   </cursor>
+   <Pane fx:id="pane" layoutX="10.0" layoutY="115.0" onScroll="#scrollGroupEvent" prefHeight="685.0" prefWidth="930.0"
+         style="-fx-border-color: red; -fx-border-width: 2px;">
+      <Group fx:id="group"/>
+   </Pane>
+
+   <HBox layoutX="10.0" layoutY="10.0" prefHeight="10.0" prefWidth="1000.0" spacing="10.0" fx:id="container">
+      <Button HBox.hgrow="ALWAYS" style="-fx-font-size: 14px; -fx-padding: 10px;" mnemonicParsing="false" onMouseClicked="#onMouseShapesClicked" prefHeight="50.0" prefWidth="150.0" text="Aggiungi Figure"/>
+      <Button fx:id="createRobotButton" HBox.hgrow="ALWAYS" style="-fx-font-size: 14px; -fx-padding: 10px;" mnemonicParsing="false" onMouseClicked="#onLoadRobotsProgram" prefHeight="50.0" prefWidth="150.0" text="Crea Robot"/>
+      <Button HBox.hgrow="ALWAYS" style="-fx-font-size: 14px; -fx-padding: 10px;" mnemonicParsing="false" onMouseClicked="#onLoadRobotsProgram" prefHeight="50.0" prefWidth="180.0" text="Aggiungi Movimenti"/>
+
+      <Button HBox.hgrow="ALWAYS" style="-fx-font-size: 14px; -fx-padding: 10px;" mnemonicParsing="false" onMouseClicked="#onExecuteClicked" prefHeight="50.0" prefWidth="175.0" text="Esegui un movimento "/>
+      <Button HBox.hgrow="ALWAYS" style="-fx-font-size: 14px; -fx-padding: 10px;" mnemonicParsing="false" onMouseClicked="#onExecuteMultipleInstruction" prefHeight="50.0" prefWidth="160.0" text="Imposta n° movimenti"/>
+
+      <Button HBox.hgrow="ALWAYS" style="-fx-font-size: 14px; -fx-padding: 10px;" mnemonicParsing="false" onMouseClicked="#onResetClicked" prefHeight="50.0" prefWidth="70.0" text="Annulla"/>
+   </HBox>
+
+   <HBox layoutX="-40.0" layoutY="70.0" prefHeight="10.0" prefWidth="1000.0" spacing="10.0" alignment="CENTER">
+      <Button style="-fx-font-size: 14px; -fx-padding: 10px;" mnemonicParsing="false" onMouseClicked="#onZoomInClicked" prefHeight="50.0" prefWidth="100.0" text="Zoom In"/>
+      <Button style="-fx-font-size: 14px; -fx-padding: 10px;" mnemonicParsing="false" onMouseClicked="#onZoomOutClicked" prefHeight="50.0" prefWidth="100.0" text="Zoom Out"/>
+   </HBox>
+
+
+
+</Pane>

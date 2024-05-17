@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="it.unicam.cs.MarcoTorquati" target="17" />
+      <module name="it.unicam.cs.MarcoTorquati.api" target="17" />
+      <module name="it.unicam.cs.MarcoTorquati.api.main" target="17" />
+      <module name="it.unicam.cs.MarcoTorquati.api.test" target="17" />
+      <module name="it.unicam.cs.MarcoTorquati.app" target="17" />
+      <module name="it.unicam.cs.MarcoTorquati.app.main" target="17" />
+      <module name="it.unicam.cs.MarcoTorquati.app.test" target="17" />
+      <module name="it.unicam.cs.MarcoTorquati.main" target="17" />
+      <module name="it.unicam.cs.MarcoTorquati.test" target="17" />
+      <module name="it.unicam.cs.MarcoTorquati.utilities" target="17" />
+      <module name="it.unicam.cs.MarcoTorquati.utilities.main" target="17" />
+      <module name="it.unicam.cs.MarcoTorquati.utilities.test" target="17" />
+      <module name="it.unicam.cs.mp.progettoesame" target="17" />
+      <module name="it.unicam.cs.mp.progettoesame.api" target="17" />
+      <module name="it.unicam.cs.mp.progettoesame.api.main" target="17" />
+      <module name="it.unicam.cs.mp.progettoesame.api.test" target="17" />
+      <module name="it.unicam.cs.mp.progettoesame.app" target="17" />
+      <module name="it.unicam.cs.mp.progettoesame.app.main" target="17" />
+      <module name="it.unicam.cs.mp.progettoesame.app.test" target="17" />
+      <module name="it.unicam.cs.mp.progettoesame.main" target="17" />
+      <module name="it.unicam.cs.mp.progettoesame.test" target="17" />
+      <module name="it.unicam.cs.mp.progettoesame.utilities" target="17" />
+      <module name="it.unicam.cs.mp.progettoesame.utilities.main" target="17" />
+      <module name="it.unicam.cs.mp.progettoesame.utilities.test" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

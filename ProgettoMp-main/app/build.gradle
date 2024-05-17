@@ -1,0 +1,23 @@
+plugins {
+    id 'application'
+    id 'org.openjfx.javafxplugin' version '0.0.13'
+}
+
+repositories {
+    mavenCentral()
+}
+
+javafx {
+    version = "20.0.1"
+    modules = [ 'javafx.controls', 'javafx.fxml' ]
+}
+
+application {
+    // Define the main class for the application.
+    mainClass = 'it.unicam.cs.MarcoTorquati.Main'
+}
+
+dependencies {
+    implementation project(path: ':utilities')
+    implementation project(path: ':api')
+}

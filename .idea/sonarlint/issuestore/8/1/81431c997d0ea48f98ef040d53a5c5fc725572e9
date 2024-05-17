@@ -1,0 +1,19 @@
+
+D
+java:S5411»"(Use a primitive boolean expression here.(“ÊÀ–ûÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(™µ¸þ
+H
+java:S1602ƒ",Remove useless curly braces around statement(ø’û³øÿÿÿÿ
+^
+java:S2175š"BA "Map<Circle, Text>" cannot contain a "Robot" in a "Circle" type.(·Ä¦Ûûÿÿÿÿ
+r
+java:S3923¨"[Remove this conditional structure or edit its code blocks so that they're not all the same.(Ç¿½ú
+A	java:S106ê"+Replace this use of System.out by a logger.(¾‘™Ò
+M
+java:S1172¹"1Remove this unused method parameter "mouseEvent".(µ¯“åþÿÿÿÿ
+i	java:S100ž"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯ìûîùÿÿÿÿ
+z
+java:S2142»"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(óÖ¬Œüÿÿÿÿ
+i	java:S100É"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(è¼€èüÿÿÿÿ
+^
+java:S1126Ü"BReplace this if-then-else statement by a single method invocation.(Þø¤§ûÿÿÿÿ
